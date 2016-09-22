@@ -2,8 +2,13 @@
 
 int main(){
 
-printf("Hello");
-printf("Hello");
+int n;
+scanf("%d",&n);
+
+for(int i=0;i<n;i++){
+  printf("Hello Sejong!\n");
+}
+
 
 return 0;
 }
